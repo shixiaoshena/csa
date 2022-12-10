@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;maximum-scale=1;minimum-scale=1;user-scalable=yes;">
+    <title>网易云音乐</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+        }
+        html{
+            font-size: 26.67vw;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            height: 0.4rem;
+            background-color:  #d43b33;
+            display: flex;
+            justify-content: space-between;
+        }
+        header>.iconfont{
+	        width:0.4rem;
+	        font-size:0.24rem;
+	        color:#fcf3ff;
+	        display: flex;
+	        align-items: center;
+        }
+        header form{
+	        flex:1;
+	        background:#fff;
+	        height:0.3rem;
+	        align-self: center;
+	        display: flex;
+	        border-radius:5px;
+	        overflow:hidden;
+        }
+        header form .iconfont{
+	        padding-left:0.47rem;
+	        display: flex;
+	        align-items: center;
+	        font-size:0.14rem;
+	        color:#c8c8c8;
+        }
+        header form input{
+	        border:none;
+	        flex:1;
+	        font-size:0.14rem;
+	        color:#c8c8c8;
+	        padding-left:0.09rem;
+        }
+        header>.iconfont:first-child{
+	        padding-left:0.15rem;
+        }
+        header>.iconfont:last-child{
+	        padding-left:0.18rem;
+        }
+        .网易云音乐{
+            height: 120px;
+        }
+        .btn{
+            color: #c04736;
+            font-size: 10px;
+            padding:8px;
+            text-decoration: none;
+            border-radius: 20px;
+            border: 0ch;
+        }
+        .Class{
+            height: 3vw;
+            background: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 3vh;
+            border-top: none;
+            border-bottom:1px solid rgba(219, 215, 215, 0.486)  ;
+    
+        }
+        div span{
+            text-decoration: none;
+            color: black;
+            padding: 0 0.5vw;
+            border-bottom: 0.1vw rgba(228, 223, 223, 0.331) solid;
+            align-items: center;
+            display: flex;
+            font-size: 1vw;
+        }
+        .box{
+            padding: 10px;
+        }
+        .little{
+            border-left: solid #c04736;
+            padding-left: 4px;
+    
+        }
+        .pic{
+            width: 30vw;
+            height: 30vw;
+        }
+        .list{
+            float: left;
+            width: 32.5vw;
+            height: 40vw;
+        }
+        .box1{
+            height: 45vw;
+        }
+        footer{
+	height:0.3rem;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	background:rgba(0,0,0,0.8);
+	display: flex;
+	justify-content: space-between;
+	padding:0 0.2rem;
+}
+footer aside{
+	display: flex;
+	flex-flow:column;
+	justify-content: center;
+	align-items: center;
+}
+footer aside .iconfont{
+	color:#b2a3a0;
+	font-size:0.25rem;
+}
+footer aside span{
+	color:#b2a3a0;
+	font-size:0.1rem;
+}
+footer aside:first-child .iconfont{
+	color: #fff;
+}
+footer aside:first-child span{
+	color:#fff;
+}
+html,body,form,input,img,textarea,legend{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:16px;
+}
+img,fieldset{
+	border:none;
+}
+img{
+	vertical-align: middle;
+}
+b,strong,i,em,h1,h2,h3,h4,h5,h6{
+	font-weight:500;
+	font-style:normal;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+ul,ol{
+	list-style:none;
+}
+.clearfn:after{
+	content:"";
+	clear:both;
+	display: block;
+	overflow:hidden;
+	height:0;
+	visibility: hidden;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <i class="iconfont"></i>
+        <form action="">
+            <i class="iconfont"></i><input type="text" value="搜索音乐、歌词、电台">
+        </form>
+        <i class="iconfont"></i>
+    </header>
+    <div class="header">
+        <img src="./assets/网易云音乐-01.png" class="网易云音乐">
+        <button class="btn">下载APP</button>
+    </div>
+    <div class="Class">
+        <span class="nav">推荐音乐</span>
+        <span class="nav">热歌榜</span>
+        <span class="nav">搜索</span>
+    </div>
+    <div class="box">
+    <div class="little"> 编辑推荐</div>
+    </div>
+
+    <div class="box1">
+        <div class="list">
+            <img src="./assets/图片.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+        <div class="list">
+            <img src="./assets/壁纸.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+        <div class="list">
+            <img src="./assets/猫猫头.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+    </div>
+        <div class="box1">
+        <div class="list">
+            <img src="./assets/网图.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+        <div class="list">
+            <img src="./assets/故宫.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+        <div class="list">
+            <img src="./assets/故宫2.jpg" class="pic">
+            <p>无意义文字</p>
+        </div>
+    </div>
+    <footer>
+		<aside><i class="iconfont"></i><span>发现音乐</span></aside>
+		<aside><i class="iconfont"></i><span>我的音乐</span></aside>
+		<aside><i class="iconfont"></i><span>朋友</span></aside>
+		<aside><i class="iconfont"></i><span>账号</span></aside>
+	</footer>
+
+</body>
+</html>
